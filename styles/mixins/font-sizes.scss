@@ -1,0 +1,36 @@
+@mixin fs05 {
+    font-size: calc(var(--fs) * .5);
+}
+@mixin fs06 {
+    font-size: calc(var(--fs) * .6);
+}
+@mixin fs07 {
+    font-size: calc(var(--fs) * .7);
+}
+@mixin fs08 {
+    font-size: calc(var(--fs) * .8);
+}
+@mixin fs09 {
+    font-size: calc(var(--fs) * .9);
+}
+@mixin fs {
+    font-size: var(--fs);
+}
+@mixin fs11 {
+    font-size: calc(var(--fs) * 1.1);
+}
+@mixin fs12 {
+    font-size: calc(var(--fs) * 1.2);
+}
+@mixin fs15 {
+    font-size: calc(var(--fs) * 1.5);
+}
+@mixin fs2 {
+    font-size: calc(var(--fs) * 2);
+}
+@mixin fs3 {
+    font-size: calc(var(--fs) * 3);
+}
+@mixin fs4 {
+    font-size: calc(var(--fs) * 4);
+}

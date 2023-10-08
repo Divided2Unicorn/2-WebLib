@@ -1,0 +1,20 @@
+@use "../mixins/font-sizes.scss" as *;
+
+h1,.h1 {
+    @include fs4;
+}
+h2,.h2 {
+    @include fs3;
+}
+h3,.h3 {
+    @include fs2;
+}
+h4,.h4 {
+    @include fs15;
+}
+h5,.h5 {
+    @include fs12;
+}
+h6,.h6 {
+    @include fs11;
+}

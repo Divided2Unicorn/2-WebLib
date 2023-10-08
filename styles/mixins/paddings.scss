@@ -1,0 +1,21 @@
+@mixin paddingXXS {
+    padding: .125em;
+}
+@mixin paddingXS {
+    padding: .25em;
+}
+@mixin paddingS {
+    padding: .5em;
+}
+@mixin paddingM {
+    padding: 1em;
+}
+@mixin paddingL {
+    padding: 1.5em;
+}
+@mixin paddingXL {
+    padding: 2em;
+}
+@mixin paddingXXL {
+    padding: 2.5em;
+}

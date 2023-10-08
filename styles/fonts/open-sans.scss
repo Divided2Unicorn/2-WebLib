@@ -1,0 +1,5 @@
+@use "../mixins/font-open-sans.scss" as *;
+
+.f-open-sans {
+    @include font-open-sans;
+}

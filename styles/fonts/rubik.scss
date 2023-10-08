@@ -1,0 +1,5 @@
+@use '../mixins/font-rubik.scss' as *;
+
+.f-rubik {
+    @include font-rubik;
+}

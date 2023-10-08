@@ -1,0 +1,15 @@
+@use "../mixins/font-sizes.scss" as *;
+
+.keyval {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: auto;
+    @include fs;
+    >:nth-child(2n+1) {
+        text-align: right;
+        font-weight: 600;
+    }
+    >:nth-child(2n) {
+        text-align: left;
+    }
+}

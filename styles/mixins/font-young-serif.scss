@@ -1,0 +1,8 @@
+@mixin font-young-serif {
+    font-family: 'Young Serif';
+}
+
+@font-face {
+    @include font-young-serif;
+    src: local('Young Serif'), url("/shared/fonts/young-serif/YoungSerif-Regular.ttf");
+}

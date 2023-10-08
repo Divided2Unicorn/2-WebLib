@@ -1,0 +1,5 @@
+@use "../mixins/font-pacifico.scss" as *;
+
+.f-pacifico {
+    @include font-pacifico;
+}

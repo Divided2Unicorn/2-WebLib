@@ -1,0 +1,21 @@
+@mixin corner {
+    border-radius: 100%;
+}
+@mixin cornerXXS {
+    border-radius: .125em;
+}
+@mixin cornerXS {
+    border-radius: .25em;
+}
+@mixin cornerS {
+    border-radius: .5em;
+}
+@mixin cornerL {
+    border-radius: 1em;
+}
+@mixin cornerXL {
+    border-radius: 1.5em;
+}
+@mixin cornerXXL {
+    border-radius: 2em;
+}

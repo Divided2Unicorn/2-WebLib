@@ -1,0 +1,8 @@
+@mixin font-pacifico {
+    font-family: "Pacifico";
+}
+
+@font-face {
+    @include font-pacifico;
+    src: local('Pacifico'), url("/shared/fonts/pacifico/Pacifico-Regular.ttf");
+}

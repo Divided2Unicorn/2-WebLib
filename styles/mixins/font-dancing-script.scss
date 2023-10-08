@@ -1,0 +1,8 @@
+@mixin font-dancing-script {
+    font-family: 'Dancing Script';
+}
+
+@font-face {
+    @include font-dancing-script;
+    src: local('Dancing Script'), url("/shared/fonts/dancing-script/DancingScript-VariableFont_wght.ttf");
+}

@@ -1,0 +1,8 @@
+@mixin font-open-sans {
+    font-family: 'Open Sans';
+}
+
+@font-face {
+    @include font-open-sans;
+    src: local('Open Sans'), url("/shared/fonts/open-sans/OpenSans-VariableFont_wdth,wght.ttf");
+}

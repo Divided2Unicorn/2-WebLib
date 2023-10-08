@@ -1,0 +1,9 @@
+@use "../mixins/font-sizes.scss" as *;
+
+.title {
+    @include fs11;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+}

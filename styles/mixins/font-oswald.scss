@@ -1,0 +1,8 @@
+@mixin font-oswald {
+    font-family: 'Oswald';
+}
+
+@font-face {
+    @include font-oswald;
+    src: local('Oswald'), url("/shared/fonts/oswald/Oswald-VariableFont_wght.ttf");
+}

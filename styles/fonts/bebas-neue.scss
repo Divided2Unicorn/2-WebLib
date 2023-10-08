@@ -1,0 +1,5 @@
+@use '../mixins/font-bebas-neue.scss' as *;
+
+.f-bebas-neue {
+    @include font-bebas-neue;
+}

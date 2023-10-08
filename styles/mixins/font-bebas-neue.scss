@@ -1,0 +1,8 @@
+@mixin font-bebas-neue {
+    font-family: 'Bebas Neue';
+}
+
+@font-face {
+    @include font-bebas-neue;
+    src: local('Bebas Neue'), url("/shared/fonts/bebas-neue/BebasNeue-Regular.ttf");
+}

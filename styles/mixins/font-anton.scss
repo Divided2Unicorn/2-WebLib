@@ -1,0 +1,8 @@
+@mixin font-anton {
+    font-family: 'Anton';
+}
+
+@font-face {
+    @include font-anton;
+    src: local('Anton'), url("/shared/fonts/anton/Anton-Regular.ttf");
+}

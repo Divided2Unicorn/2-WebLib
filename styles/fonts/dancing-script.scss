@@ -1,0 +1,5 @@
+@use "../mixins/font-dancing-script.scss" as *;
+
+.f-dancing-script {
+    @include font-dancing-script;
+}

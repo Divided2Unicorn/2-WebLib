@@ -1,0 +1,5 @@
+@use '../mixins/font-young-serif.scss' as *;
+
+.f-young-serif {
+    @include font-young-serif;
+}

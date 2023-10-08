@@ -1,0 +1,5 @@
+@use '../mixins/font-pixelify-sans.scss' as *;
+
+.f-pixelify-sans {
+    @include font-pixelify-sans;
+}

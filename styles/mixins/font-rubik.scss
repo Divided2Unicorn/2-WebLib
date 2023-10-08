@@ -1,0 +1,8 @@
+@mixin font-rubik {
+    font-family: 'Rubik';
+}
+
+@font-face {
+    @include font-rubik;
+    src: local('Rubik'), url("/shared/fonts/rubik/Rubik-VariableFont_wght.ttf");
+}

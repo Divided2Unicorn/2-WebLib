@@ -1,0 +1,5 @@
+@use "../mixins/font-anton.scss" as *;
+
+.f-anton {
+    @include font-anton;
+}
